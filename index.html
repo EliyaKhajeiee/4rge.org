@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>4rge.org – Apps for Trainers & Coaches</title>
+  <title>4RGE – Connect Athletes & Coaches</title>
   <style>
     :root {
-      --primary: #0f172a;
-      --secondary: #1e293b;
-      --accent: #38bdf8;
+      --primary: #1a1f26;
+      --secondary: #2a2f36;
+      --accent: #ff4d00;
       --white: #f8fafc;
     }
 
@@ -32,8 +32,9 @@
     }
 
     header h1 {
-      font-size: 2.5rem;
+      font-size: 3rem;
       color: var(--accent);
+      font-weight: bold;
     }
 
     header p {
@@ -78,7 +79,7 @@
     .cta a {
       display: inline-block;
       background: var(--accent);
-      color: var(--primary);
+      color: var(--white);
       padding: 0.75rem 1.5rem;
       border-radius: 5px;
       font-weight: bold;
@@ -87,7 +88,7 @@
     }
 
     .cta a:hover {
-      background: #0ea5e9;
+      background: #e64600;
     }
 
     footer {
@@ -103,43 +104,56 @@
         grid-template-columns: repeat(2, 1fr);
       }
     }
+
+    .mockup-container {
+      display: flex;
+      justify-content: center;
+      margin: 3rem 0;
+    }
+
+    .mockup {
+      max-width: 90%;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    }
   </style>
 </head>
 <body>
 
   <header>
-    <h1>4rge.org</h1>
-    <p>Empowering fitness professionals with cutting-edge mobile apps.</p>
+    <h1>4RGE</h1>
+    <p>Connecting athletes with expert coaches for personalized training sessions</p>
   </header>
 
   <main>
-    <h2>What We Do</h2>
+    <h2>Find Your Perfect Match</h2>
     <div class="features">
       <div class="feature">
-        <h3>Custom Fitness Apps</h3>
-        <p>We create branded, feature-rich mobile apps for personal trainers and coaches to manage clients and workouts.</p>
+        <h3>For Athletes</h3>
+        <p>Discover qualified coaches in your area. Browse profiles, read reviews, and book sessions that fit your schedule and goals.</p>
       </div>
       <div class="feature">
-        <h3>Client Management</h3>
-        <p>Keep track of client progress, assign workout plans, and communicate—all from your custom app.</p>
+        <h3>For Coaches</h3>
+        <p>Connect with motivated athletes looking for your expertise. Manage your availability, set your rates, and grow your client base.</p>
       </div>
       <div class="feature">
-        <h3>Nutrition & Habit Tracking</h3>
-        <p>Our apps support meal plans, goal setting, and habit tracking to support your clients holistically.</p>
+        <h3>Easy Booking</h3>
+        <p>Book training sessions with just a few taps. No more back-and-forth messaging to find the right time and place.</p>
       </div>
       <div class="feature">
-        <h3>Cross-Platform</h3>
-        <p>We build for iOS and Android using modern frameworks—your app, everywhere.</p>
+        <h3>Location-Based</h3>
+        <p>Find coaches near you or when traveling to new areas. Train anywhere, anytime with local expertise.</p>
       </div>
     </div>
 
     <div class="cta">
-      <a href="https://apps.apple.com" target="_blank" rel="noopener">📱 Check Out Our App on the App Store</a>
+      <a href="/download" target="_blank" rel="noopener">📱 Download 4RGE Today</a>
     </div>
   </main>
 
   <footer>
-    &copy; 2025 4rge.org. All rights reserved.
+    &copy; 2025 4RGE. All rights reserved.
   </footer>
 
 </body>
